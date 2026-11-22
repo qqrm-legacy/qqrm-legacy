@@ -1,8 +1,16 @@
 # QQRM Legacy
 
-Законченные и замороженные проекты. Публичные витринные репозитории остаются доступными для просмотра, но больше не развиваются; всё остальное лежит архивом.
+Подушка, где проекты живут после завершения основной разработки. Здесь лежат как проекты, которые всё ещё работают сами по себе (например, боты по расписанию), так и законченные витринные работы и полностью замороженный архив.
 
-Finished and frozen projects. Public showcase repositories stay readable, but no further development is planned; everything else is kept as a read-only archive.
+A soft landing for projects after active development is over: autonomous bots that still run, finished pieces worth showing, and a fully frozen archive. Keeping them here also separates their CI quota from the repositories I actively develop.
+
+Все репозитории, кроме отмеченных как **running**, архивированы и имеют отключённый CI.
+
+## Still running — автопилот
+
+Проекты, в которые почти не коммитят, но которые продолжают работать по расписанию. Остаются публичными и не архивируются намеренно.
+
+- **[twir-deploy-notify](https://github.com/qqrm-legacy/twir-deploy-notify)** — converts *This Week in Rust* into Telegram MarkdownV2 and publishes it automatically. Source of the [`@yatwir`](https://t.me/yatwir) feed. Important: do not archive — the scheduled workflows must keep running.
 
 ## Showcase — законченные проекты
 
@@ -23,5 +31,3 @@ Finished and frozen projects. Public showcase repositories stay readable, but no
 
 - [qqrm](https://github.com/qqrm) — поддерживаемые продукты и витрина профиля.
 - [qqrm-labs](https://github.com/qqrm-labs) — активные эксперименты, боты, шаблоны и лаборатории.
-
-Everything in this organization is archived: issues and pull requests are closed, and CI is disabled.
